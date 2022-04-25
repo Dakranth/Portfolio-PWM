@@ -85,7 +85,7 @@
 /* */
 .sobre {
   font-family: "Ubuntu", serif;
-  margin-bottom: 110px;
+  margin-bottom: 70px;
 }
 .sobre .sobre-conteudo .esq {
   width: 45%;
@@ -122,12 +122,23 @@
   text-align: center;
   padding: 60px;
 }
+.sobre .redes .tit {
+  padding-left: 544px;
+}
+.sobre .redes ul {
+  list-style: none;
+  display: inline-flex;
+  margin-left: 520px;
+}
+.sobre .redes ul img {
+  height: 20px;
+  margin-left: 10px;
+}
 /* */
 .habilidades {
   background-color: rgb(22, 21, 21);
   font-family: "Ubuntu", serif;
   color: aliceblue;
-  margin-bottom: 110px;
   padding-bottom: 220px;
   padding-left: 70px;
   padding-right: 23px;

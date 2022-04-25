@@ -40,15 +40,10 @@
   align-items: center;
   justify-content: space-between;
 }
-
-#wwimg {
-  margin-left: 400px;
-  margin-top: 250px;
-}
 .home {
   display: flex;
-  background: url("img/wp6994803.jpg") no-repeat right;
-  background-color: black;
+  background: url("img/photo-1422207258071-70754198c4a2.jpg") no-repeat right
+    fixed;
   background-size: cover;
   height: 680px;
   color: rgb(255, 255, 255);
@@ -136,7 +131,6 @@
 }
 /* */
 .habilidades {
-  background-color: rgb(22, 21, 21);
   font-family: "Ubuntu", serif;
   color: aliceblue;
   padding-bottom: 200px;
@@ -172,4 +166,10 @@
 .habilidades .hab ul img {
   height: 20px;
   margin-left: 10px;
+}
+
+.habilidades {
+  background: url("img/photo-1422207258071-70754198c4a2.jpg") no-repeat right
+    fixed;
+  background-size: cover;
 }

@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&family=Roboto:wght@100&family=Ubuntu:ital@1&display=swap");
+
+.largura {
+  max-width: 1500px;
+  padding: 0 80px;
+  margin: auto;
+}
+.navbarra {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 5px 0;
+  font-family: "Roboto", serif;
+  top: 0;
+}
+.navbarra .logo a {
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: 800;
+  list-style: none;
+  text-decoration: none;
+}
+.navbarra .menu li a {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 750;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: color 0.3 ease-in-out;
+}
+.navbarra .menu li a:hover {
+  color: rgb(56, 3, 14);
+}
+.navbarra .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbarra .largura {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#wwimg {
+  margin-left: 400px;
+  margin-top: 250px;
+}
+.home {
+  display: flex;
+  background: url("img/wp6994803.jpg") no-repeat right;
+  background-color: black;
+  background-size: cover;
+  height: 680px;
+  color: rgb(255, 255, 255);
+  min-height: 500px;
+  font-family: "Ubuntu", serif;
+}
+.home .conteudo-home {
+  margin: auto 0 auto 100px;
+}
+.home .conteudo-home .texto1 {
+  font-size: 28px;
+}
+.home .conteudo-home .texto2 {
+  font-size: 68px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home .conteudo-home .texto3 {
+  font-size: 32px;
+  margin: 5px 0;
+}
+.home .conteudo-home .texto3 span {
+  color: rgb(122, 13, 35);
+  font-weight: 900;
+}
+
+.scroll-down .navbarra {
+  transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up .navbarra {
+  background-color: rgb(122, 13, 35);
+}
+/* */
+.sobre {
+  font-family: "Ubuntu", serif;
+  margin-bottom: 110px;
+}
+.sobre .sobre-conteudo .esq {
+  width: 45%;
+}
+.sobre .titulo {
+  font-size: 35px;
+  font-weight: 2500;
+  font-family: "Roboto", serif;
+}
+.sobre .sobre-conteudo .esq img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+.sobre .sobre-conteudo .dir {
+  position: absolute;
+  right: 0px;
+  margin-top: -400px;
+  width: 50%;
+  padding: 100px;
+}
+.sobre .sobre-conteudo .dir .texto {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: rgb(122, 13, 35);
+}
+.sobre .sobre-conteudo .dir p {
+  text-align: justify;
+}
+.sobre h2 {
+  text-align: center;
+  padding: 60px;
+}
+/* */
+.habilidades {
+  background-color: rgb(22, 21, 21);
+  font-family: "Ubuntu", serif;
+  color: aliceblue;
+  margin-bottom: 110px;
+  padding-bottom: 220px;
+  padding-left: 70px;
+  padding-right: 23px;
+}
+.habilidades h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 2500;
+  font-family: "Roboto", serif;
+  padding: 80px;
+  padding-bottom: 200px;
+}
+.habilidades .esq .titulo {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: rgb(122, 13, 35);
+}
+.habilidades .esq p {
+  text-align: justify;
+  width: 50%;
+}
+.habilidades .hab ul {
+  position: absolute;
+  right: 0px;
+  margin-top: -155px;
+  width: 30%;
+  list-style: none;
+  display: inline-block;
+}
+.habilidades .hab ul img {
+  height: 20px;
+  margin-left: 10px;
+}
+.contato {
+  font-family: "Ubuntu", serif;
+  margin-bottom: 110px;
+  padding-bottom: 220px;
+  padding-left: 70px;
+  padding-right: 23px;
+}
+.contato h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 2500;
+  font-family: "Roboto", serif;
+  padding: 5px;
+  padding-bottom: 200px;
+}

@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&family=Roboto:wght@100&family=Ubuntu:ital@1&display=swap");
+body {
+  margin: 0;
+}
 
 .largura {
   max-width: 1500px;
@@ -45,9 +48,9 @@
   background: url("img/photo-1422207258071-70754198c4a2.jpg") no-repeat right
     fixed;
   background-size: cover;
-  height: 680px;
-  color: rgb(255, 255, 255);
+  height: 100vh;
   min-height: 500px;
+  color: rgb(255, 255, 255);
   font-family: "Ubuntu", serif;
 }
 .home .conteudo-home {
@@ -81,6 +84,7 @@
 .sobre {
   font-family: "Ubuntu", serif;
   margin-bottom: 70px;
+  height: 100vh;
 }
 .sobre .sobre-conteudo .esq {
   width: 45%;
@@ -136,6 +140,8 @@
   padding-bottom: 200px;
   padding-left: 70px;
   padding-right: 23px;
+  height: 100vh;
+  max-height: 500px;
 }
 .habilidades h2 {
   text-align: center;
